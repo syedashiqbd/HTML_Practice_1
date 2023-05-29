@@ -27,3 +27,16 @@ h2 {
   border: 5px solid lightseagreen;
   margin: 20px 0;
 }
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+}
+tr:nth-child(odd) {
+  background-color: #eee;
+}
