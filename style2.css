@@ -33,10 +33,13 @@ table {
 }
 th,
 td {
-  border: 1px solid #ddd;
+  border: 1px solid #96d4d4;
   text-align: center;
   padding: 10px;
 }
+td:first-child {
+  text-align: left;
+}
 tr:nth-child(odd) {
-  background-color: #eee;
+  background-color: #96d4d4;
 }
